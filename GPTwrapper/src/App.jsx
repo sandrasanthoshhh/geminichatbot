@@ -7,7 +7,7 @@ function App() {
   const [chat, setChat] = useState("");
   const [response, setResponse] = useState("");
 
-
+    //hello new change
   useEffect(()=>{
     const ws=new WebSocket('ws://localhost:3000')
 
